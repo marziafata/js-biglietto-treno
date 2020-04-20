@@ -39,10 +39,10 @@ if (eta >= 18 && eta < 65) {
     // se >= 65 - 40%
     var totale2 = (chilometri * pensionato);
     // console.log('Hai più di 65 anni, quindi paghi ' + totale2.toFixed(2) + '€');
-    document.getElementById('paghi2').innerHTML='Il costo del tuo biglietto è: ' + totale2.toFixed(2) + '€';
+    document.getElementById('paghi2').innerHTML='Il costo del tuo biglietto scontato del 40% è: ' + totale2.toFixed(2) + '€';
 } else {
     // l'età inserita non è >=18 né >= 65
     var totale3 = (chilometri * minorenne);
     // console.log('Hai meno di 18 anni, quindi paghi ' + totale3.toFixed(2)+ '€');
-    document.getElementById('paghi3').innerHTML='Il costo del tuo biglietto è: ' + totale3.toFixed(2) + '€';
+    document.getElementById('paghi3').innerHTML='Il costo del tuo biglietto scontato del 20% è: ' + totale3.toFixed(2) + '€';
 }
